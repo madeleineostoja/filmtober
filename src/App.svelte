@@ -26,12 +26,12 @@
     <Section first title="The Basics">
       <ContentBlock heading="Take and post a photo daily">
         <p>Take a photo every day during October, and post a photo taken during the last 2 weeks. This means you can start with photos taken in September.</p>
-        <p><em>Half marathon:</em> Take and post a photo every 2nd day.</p>
+        <p><em>Half marathon:</em> Take a photo every 2nd day, and post from the last month.</p>
       </ContentBlock>
 
       <ContentBlock heading="Tag and share your photos">
         <p>Tag your posts with <a href="https://www.instagram.com/explore/tags/filmtober/" target="_blank">#filmtober</a> and <a href="https://www.instagram.com/explore/tags/filmtober2020/" target="_blank">#filmtober2020</a> so we can follow along on social media. Include the film and camera/lens you shot with as well.</p>
-        <p><em>Bonus points:</em> Tag your photo with <a href="https://www.instagram.com/explore/tags/filmtober_photo/" target="_blank">#filmtober_photo</a> and it will be featured here on the official site!</p>
+        <p><em>Bonus points:</em> Tag your photo with <a href="https://www.instagram.com/explore/tags/filmtober_photo/" target="_blank">#filmtober_photo</a> and it will be featured here on the official site.</p>
       </ContentBlock>
 
       <ContentBlock heading="Use themes for inspiration">
