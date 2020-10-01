@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    /* Type-Checking Options */
+    "strict": true,
+    /* Module resoltion */
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true
+  },
+  "include": ["src", "@types"],
+  "exclude": ["node_modules", "public"]
+}
