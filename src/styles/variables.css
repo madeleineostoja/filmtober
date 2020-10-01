@@ -7,16 +7,16 @@
   /* Typography */
   --font-family-sans: "Inter", sans-serif;
   --font-weight-semibold: 600;
-  --font-weight-bold: 700;
+  --font-weight-bold: 900;
 
   /* Colours */
   --color-text: var(--color-black);
-  --color-text-secondary: var(--color-grey-700);
+  --color-text-secondary: #84888d;
 
   /* Layout — Page */
   --page-width: 90rem;
-  --page-gutter: 3vw;
-  --content-gutter: 20px;
+  --page-gutter: 6vw;
+  --content-gutter: 3vw;
   --page-grid: minmax(var(--page-gutter), 1fr) minmax(0, var(--page-width))
     minmax(var(--page-gutter), 1fr);
   --content-grid: repeat(12, 1fr);

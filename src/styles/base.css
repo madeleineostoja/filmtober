@@ -44,7 +44,8 @@ h4,
 h5,
 h6 {
   font-size: inherit;
-  font-weight: inherit;
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--leading-xsmall);
 }
 
 /** Base styles */
@@ -57,12 +58,14 @@ html {
 
 body {
   font-family: var(--font-family-sans);
+  font-size: var(--scale-1);
   color: var(--color-text);
   position: relative;
   min-height: 100vh;
+  line-height: var(--leading-normal);
 }
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: var(--color-blue);
 }

@@ -9,9 +9,10 @@
   },
   "dependencies": {
     "cssremedy": "^0.1.0-beta.2",
+    "instagram-searchtags": "^2.0.9",
     "pollen-css": "^1.0.0",
     "svelte": "^3.24.0",
-    "typeface-inter": "^3.15.0"
+    "svelte-lazy": "^1.0.5"
   },
   "devDependencies": {
     "@snowpack/app-scripts-svelte": "^1.8.5",
@@ -19,8 +20,13 @@
     "@tsconfig/svelte": "^1.0.10",
     "@types/snowpack-env": "^2.3.0",
     "hygen": "^6.0.4",
+    "node-sass": "^4.14.1",
     "postcss-load-config": "^2.1.2",
     "postcss-nesting": "^7.0.1",
+    "postcss-subgrid": "^1.1.0",
+    "prettier": "^2.1.2",
+    "prettier-plugin-svelte": "^1.4.0",
+    "sass": "^1.26.11",
     "snowpack": "^2.12.0",
     "svelte-check": "^1.0.0",
     "svelte-preprocess": "^4.3.2"
