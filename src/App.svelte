@@ -20,7 +20,7 @@
 <main>
   <ContentGrid>
     <!-- Hero -->
-    <Hero heading="FILMTOBER" description="Filmtober is a celebration of film photography, and a challenge to capture photographs on film every day during October" />
+    <Hero heading="#FILMTOBER" description="Filmtober is a celebration of film photography, and a challenge to capture photographs on film every day during October" />
 
     <!-- Basics -->
     <Section first title="The Basics">
