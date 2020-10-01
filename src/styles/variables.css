@@ -5,9 +5,9 @@
  */
 :root {
   /* Typography */
-  --font-family-sans: "Inter", sans-serif;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 900;
+  --font-family-sans: "Inter", sans-serif !important;
+  --font-weight-semibold: 600 !important;
+  --font-weight-bold: 900 !important;
 
   /* Colours */
   --color-text: var(--color-black);
