@@ -57,6 +57,9 @@
     & > :global(*) {
       flex-shrink: 0;
       padding: 0 calc(var(--content-gutter) / 2);
+      &:last-child {
+        padding-right: var(--content-gutter);
+      }
     }
   }
 </style>
