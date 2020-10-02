@@ -41,7 +41,7 @@
 
   breakpoints.forEach((bp) => {
     setParams(bp);
-    (bp.query as any).addEventListener('change', () => setParams(bp));
+    (bp.query as any).addListener(() => setParams(bp));
   });
 
   const IMAGES = [
