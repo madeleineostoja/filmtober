@@ -10,13 +10,9 @@
 
 <style lang="scss">
   .section {
-    margin: var(--spacing-2) 0;
+    margin: var(--section-spacing) 0;
     grid-column: 1 / -1;
-    @media (min-width: 45em) {
-      margin: var(--spacing-3) 0;
-    }
     @media (min-width: 60em) {
-      margin: var(--spacing-4) 0;
       grid-column: 2 / 12;
     }
     @media (min-width: 70em) {
@@ -29,10 +25,7 @@
   }
 
   .section.first {
-    margin-top: var(--spacing-4);
-    @media (min-width: 45em) {
-      margin-top: var(--spacing-5);
-    }
+    margin-top: var(--spacing-5);
     @media (min-width: 60em) {
       margin-top: var(--spacing-6);
     }
@@ -43,7 +36,7 @@
   }
 
   .content {
-    margin-top: var(--spacing-2);
+    margin-top: var(--spacing-1);
     @media (min-width: 45em) {
       margin-top: 42px;
     }

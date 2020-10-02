@@ -11,13 +11,15 @@
     "cssremedy": "^0.1.0-beta.2",
     "instagram-searchtags": "^2.0.9",
     "pollen-css": "^1.0.0",
-    "svelte": "^3.24.0",
-    "svelte-lazy": "^1.0.5"
+    "rellax": "^1.12.1",
+    "svelte": "^3.24.0"
   },
   "devDependencies": {
     "@snowpack/app-scripts-svelte": "^1.8.5",
     "@snowpack/plugin-webpack": "^2.0.13",
     "@tsconfig/svelte": "^1.0.10",
+    "@types/gtag.js": "^0.0.3",
+    "@types/rellax": "^1.7.3",
     "@types/snowpack-env": "^2.3.0",
     "hygen": "^6.0.4",
     "node-sass": "^4.14.1",

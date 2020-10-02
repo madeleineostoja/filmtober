@@ -10,6 +10,5 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true
   },
-  "include": ["src", "@types"],
-  "exclude": ["node_modules", "public"]
+  "include": ["src", "./@types"]
 }

@@ -20,4 +20,19 @@
   --page-grid: minmax(var(--page-gutter), 1fr) minmax(0, var(--page-width))
     minmax(var(--page-gutter), 1fr);
   --content-grid: repeat(12, 1fr);
+
+  /* Contstants */
+  --section-spacing: var(--spacing-2);
+}
+
+@media (min-width: 45em) {
+  :root {
+    --section-spacing: var(--spacing-3);
+  }
+}
+
+@media (min-width: 60em) {
+  :root {
+    --section-spacing: var(--spacing-4);
+  }
 }

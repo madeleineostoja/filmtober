@@ -25,7 +25,7 @@
 
   h3 {
     grid-column: 1 / span 3;
-    font-size: var(--scale-3);
+    font-size: var(--scale-2);
     @media (min-width: 35em) {
       font-size: var(--scale-4);
     }
@@ -36,7 +36,9 @@
 
   .content {
     grid-column: 4 / -1;
+    font-size: var(--scale-0);
     @media (min-width: 45em) {
+      font-size: var(--scale-1);
       & > :global(p:first-child) {
         margin-top: 0;
       }

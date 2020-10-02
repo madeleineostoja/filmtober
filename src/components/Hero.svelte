@@ -3,6 +3,8 @@
   Hero heading for the page
 -->
 <script lang="ts">
+  import ExternalLink from './ExternalLink.svelte';
+
   /** Heading */
   export let heading: string;
   /** Description */
@@ -36,13 +38,23 @@
   p {
     font-weight: 500;
     color: var(--color-grey-700);
+    margin-bottom: 0.5em;
     @media (max-width: 35em) {
       font-size: var(--scale-0);
     }
+  }
+  .attribution {
+    color: var(--color-text-secondary);
+    font-size: var(--scale-0);
   }
 </style>
 
 <div class="hero">
   <h1>{heading}</h1>
   <p>{description}</p>
+  <span class="attribution">A project by
+    <ExternalLink href="https://www.instagram.com/seaneking/">
+      @seaneking
+    </ExternalLink>
+  </span>
 </div>

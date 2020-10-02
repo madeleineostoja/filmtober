@@ -1143,6 +1143,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/gtag.js@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@types/gtag.js/-/gtag.js-0.0.3.tgz#bbc414030b2143fc7874260ab825aac82c42928e"
+  integrity sha512-iRF/4Q3G1t0OTNMjK52tpGSQPgEsYzWQL1IdVXt9BywK6MUK3ypB7LaoEQa8sW9gPXENoU1xAyCxqJhMkB2rCA==
+
 "@types/http-cache-semantics@*":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/http-cache-semantics/-/http-cache-semantics-4.0.0.tgz#9140779736aa2655635ee756e2467d787cfe8a2a"
@@ -1198,6 +1203,11 @@
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==
+
+"@types/rellax@^1.7.3":
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/@types/rellax/-/rellax-1.7.3.tgz#2e21174ef0a2c9717125a415daee46c353c000b8"
+  integrity sha512-W5I8DS7ZGkA/jPiirTk0kbU9ZttnpjFM2Qaj3sW2aYj4itueOzcU6D+Il6OV+JyzdeHf9P11tcwGu1mlASgJRA==
 
 "@types/resolve@1.17.1":
   version "1.17.1"
@@ -6584,6 +6594,11 @@ relateurl@^0.2.7:
   resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
   integrity sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=
 
+rellax@^1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/rellax/-/rellax-1.12.1.tgz#1b433ef7ac4aa3573449a33efab391c112f6b34d"
+  integrity sha512-XBIi0CDpW5FLTujYjYBn1CIbK2CJL6TsAg/w409KghP2LucjjzBjsujXDAjyBLWgsfupfUcL5WzdnIPcGfK7XA==
+
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
@@ -7482,11 +7497,6 @@ svelte-language-server@*:
     vscode-languageserver "6.1.1"
     vscode-languageserver-types "3.15.1"
     vscode-uri "2.1.2"
-
-svelte-lazy@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/svelte-lazy/-/svelte-lazy-1.0.5.tgz#0d9e0eb1d71eb12fe27e3e64383cbdb761eeef53"
-  integrity sha512-Go1BqhlldBgm8M3AJH8U4/jBRFbB3NaXIwmNaBEMxwB7gXiEifmj/WQqmuXGfINeq+sM586lYYR9L6Gl0p5Gng==
 
 svelte-preprocess@^4.3.2, svelte-preprocess@~4.3.0:
   version "4.3.2"

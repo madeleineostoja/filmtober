@@ -4,6 +4,7 @@
 -->
 <style>
   div {
+    position: relative;
     display: grid;
     grid-column: 2 / 3;
     grid-template-columns: var(--content-grid);

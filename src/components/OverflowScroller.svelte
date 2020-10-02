@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: var(--content-grid);
     column-gap: var(--content-gutter);
-    margin: var(--spacing-4) 0;
+    margin: var(--section-spacing) 0;
   }
 
   .outer,

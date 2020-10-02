@@ -1,7 +1,9 @@
 <script lang="ts">
   import ContentBlock from './components/ContentBlock.svelte';
   import ContentGrid from './components/ContentGrid.svelte';
+  import ExternalLink from './components/ExternalLink.svelte';
   import Hero from './components/Hero.svelte';
+  import ImageBanner from './components/ImageBanner.svelte';
   import InstagramGallery from './components/InstagramGallery.svelte';
   import OverflowScroller from './components/OverflowScroller.svelte';
   import Section from './components/Section.svelte';
@@ -11,17 +13,26 @@
 
 <style>
   main {
+    position: relative;
     display: grid;
     grid-template-columns: var(--page-grid);
     padding: var(--spacing-3) 0;
+    overflow: hidden;
   }
 </style>
 
 <main>
+  <!-- <span class="attribution">A project by
+    <ExternalLink href="https://www.instagram.com/seaneking/">@seaneking</ExternalLink>
+  </span> -->
   <ContentGrid>
     <!-- Hero -->
     <Hero heading="#FILMTOBER" description="Filmtober is a celebration of film photography, and a challenge to capture photographs on film every day during October" />
+  </ContentGrid>
 
+  <ImageBanner />
+
+  <ContentGrid>
     <!-- Basics -->
     <Section first title="The Basics">
       <ContentBlock heading="Take and post a photo daily">
@@ -30,8 +41,8 @@
       </ContentBlock>
 
       <ContentBlock heading="Tag and share your photos">
-        <p>Tag your posts with <a href="https://www.instagram.com/explore/tags/filmtober/" target="_blank">#filmtober</a> and <a href="https://www.instagram.com/explore/tags/filmtober2020/" target="_blank">#filmtober2020</a> so we can follow along on social media. Include the film and camera/lens you shot with as well.</p>
-        <p><em>Bonus points:</em> Tag your photo with <a href="https://www.instagram.com/explore/tags/filmtober_photo/" target="_blank">#filmtober_photo</a> and it will be featured here on the official site.</p>
+        <p>Tag your posts with <ExternalLink href="https://www.instagram.com/explore/tags/filmtober/">#filmtober</ExternalLink> and <ExternalLink href="https://www.instagram.com/explore/tags/filmtober2020/">#filmtober2020</ExternalLink> so we can follow along on social media. Include the film and camera/lens you shot with as well.</p>
+        <p><em>Bonus points:</em> Tag your photo with <ExternalLink href="https://www.instagram.com/explore/tags/filmtober_photo/">#filmtober_photo</ExternalLink> and it will be featured here on the official site.</p>
       </ContentBlock>
 
       <ContentBlock heading="Use themes for inspiration">
