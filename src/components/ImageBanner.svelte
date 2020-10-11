@@ -14,7 +14,6 @@
     speed: number;
     query: MediaQueryListEvent | MediaQueryList;
   }) => {
-    console.log(bp.query.matches);
     if (bp.query.matches) {
       width = bp.width;
       speed = bp.speed;

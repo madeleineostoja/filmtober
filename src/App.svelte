@@ -65,11 +65,11 @@
   <!-- Themes -->
   <OverflowScroller title="The Themes">
       <ThemeCard
-        active
         theme="Light"
         dates="1st - 11th"
         description="Whether available or studio, show us how you can make light a key part of your composition." />
       <ThemeCard
+        active
         theme="People"
         dates="12th - 18th"
         description="From formal portraiture to candid street photography, capture the beautiful humans around you for a week." />
