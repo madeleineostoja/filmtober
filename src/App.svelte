@@ -21,9 +21,6 @@
 </style>
 
 <main>
-  <!-- <span class="attribution">A project by
-    <ExternalLink href="https://www.instagram.com/seaneking/">@seaneking</ExternalLink>
-  </span> -->
   <ContentGrid>
     <!-- Hero -->
     <Hero heading="#FILMTOBER" description="Filmtober is a celebration of film photography, and a challenge to capture photographs on film every day during October" />
