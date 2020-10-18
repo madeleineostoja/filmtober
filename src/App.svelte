@@ -69,11 +69,11 @@
         dates="1st - 11th"
         description="Whether available or studio, show us how you can make light a key part of your composition." />
       <ThemeCard
-        active
         theme="People"
         dates="12th - 18th"
         description="From formal portraiture to candid street photography, capture the beautiful humans around you for a week." />
       <ThemeCard
+        active
         theme="Minimalism"
         dates="19th - 25th"
         description="Do more with less. Challenge yourself to communicate with simple forms, leaning towards the abstract." />
