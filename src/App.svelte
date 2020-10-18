@@ -4,7 +4,6 @@
   import ExternalLink from './components/ExternalLink.svelte';
   import Hero from './components/Hero.svelte';
   import ImageBanner from './components/ImageBanner.svelte';
-  import InstagramGallery from './components/InstagramGallery.svelte';
   import OverflowScroller from './components/OverflowScroller.svelte';
   import Section from './components/Section.svelte';
   import ThemeCard from './components/ThemeCard.svelte';
