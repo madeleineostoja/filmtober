@@ -69,11 +69,11 @@
         dates="12th - 18th"
         description="From formal portraiture to candid street photography, capture the beautiful humans around you for a week." />
       <ThemeCard
-        active
         theme="Minimalism"
         dates="19th - 25th"
         description="Do more with less. Challenge yourself to communicate with simple forms, leaning towards the abstract." />
       <ThemeCard
+        active
         theme="Open Theme"
         dates="26th - 31st"
         description="For last week of Filmtober, there are no rules! Shoot anything you like, in any way you like, and let your creaive mind run free." />
